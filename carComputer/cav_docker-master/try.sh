@@ -1,0 +1,21 @@
+
+
+#!/bin/bash
+ips=($(hostname -I))
+
+for ip in "${ips[@]}"
+do
+	echo $ip
+done
+
+docker build -t car1 . 
+cd .. 
+ls
+if [ -d "shared_folder" ] 
+then
+  cd shared_folder
+  rm -r serveFile
+fi
+mkdir serveFile 
+cd serveFile 
+docker run -p 9000:9000 -p 3000:3000 -p 3001:3001 -v "$(pwd):/mydata" car1 /mydata

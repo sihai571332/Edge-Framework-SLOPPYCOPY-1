@@ -1,0 +1,9 @@
+#Base image
+FROM bash:4.4
+
+RUN mkdir /SENDTEXT
+
+COPY /sendTXT.sh /SENDTEXT
+
+ENTRYPOINT ["bash","/SENDTEXT/sendTXT.sh"]
+CMD ["localhost:9000/2.jpg"]

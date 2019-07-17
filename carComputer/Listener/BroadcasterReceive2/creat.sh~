@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+
+docker build -t broadcaster .
+
+cd ../../shared_folder
+
+docker run --network coolbeans -v "$(pwd):/go/mydata" broadcaster
