@@ -3,7 +3,7 @@ While this version works, it's not optimized as it uses large docker base images
 that were used for additional experimentation/debugging. A finalized version will be added to another repository...
 
 
-Prequisites:
+Prerequisites:
 
 1. Clone this project. Do not download! The reason why is because there are large files within this repository that were only able to make it onto Github via Git LFS, which utilizes a text pointer. Since this is the case, these large files will not be downloaded along with everything else.
 2. After cloning the project, go to the projects root directory and execute: git lfs fetch (doing so will retrieve the large files).
@@ -11,7 +11,7 @@ Prequisites:
 
 
 
-If this project is cloned onto a single computer, follow these steps:
+If the prerequisites above have been completed, follow these steps:
 
 1. Open up two different terminal windows.
 2. On one terminal window, move to the carComputer directory via cd.
