@@ -5,9 +5,10 @@ that were used for additional experimentation/debugging. A finalized version wil
 
 Prerequisites:
 
-1. Clone this project. Do not download! The reason why is because there are large files within this repository that were only able to make it onto Github via Git LFS, which utilizes a text pointer. Since this is the case, these large files will not be downloaded along with everything else.
-2. After cloning the project, go to the projects root directory and execute: git lfs fetch (doing so will retrieve the large files).
-3. Make sure Docker is installed.
+1. Install git lfs
+2. Clone this project. Do not download! The reason why is because there are large files within this repository that were only able to make it onto Github via Git LFS, which utilizes a text pointer. Since this is the case, these large files will not be downloaded along with everything else.
+3. After cloning the project, go to the projects root directory and execute: git lfs fetch (doing so will retrieve the large files).
+4. Make sure Docker is installed.
 
 
 
