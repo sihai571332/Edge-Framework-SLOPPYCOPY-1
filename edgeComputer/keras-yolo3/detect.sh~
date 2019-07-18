@@ -1,3 +1,0 @@
-#!/bin/bash
-
-python3 yolo_video.py --input $1 --output ../mydata/$1
