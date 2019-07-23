@@ -22,7 +22,7 @@ func main(){
 	for{
 	   c, err := l.Accept()
 	   if err != nil {
-	      fmt.Println("FUCK\n")
+	      fmt.Println("Duck\n")
 	   } else{
 	      fmt.Println("Success")
 	   }
@@ -34,7 +34,7 @@ func main(){
 	   file1,err := os.OpenFile(path,os.O_APPEND|os.O_CREATE|os.O_RDWR,0644)
 	   
 	   if err != nil{
-	      fmt.Println("OH CRAP! AN ERROR!!!!!")
+	      fmt.Println("OH CRAB! AN ERROR!!!!!")
 	   } else{	   
 
 
